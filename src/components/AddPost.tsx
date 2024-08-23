@@ -7,7 +7,7 @@ type Props = {};
 
 const AddPost = (props: Props) => {
   return (
-    <div className="p-4 bg-white rounded-lg flex gap-4 justify-between text-sm">
+    <div className="p-4 bg-white shadow-md rounded-lg flex gap-4 justify-between text-sm">
       <Image
         src={testing_image}
         alt=""
