@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import testing_image from "../../public/Screenshot 2024-08-22 215639.png"
+import testing_image from "../../public/Screenshot 2024-08-22 215639.png";
 
 type Props = {};
 
@@ -14,12 +14,89 @@ const FriendRequests = (props: Props) => {
           See all
         </Link>
       </div>
-      <div className="flex items-center justify-center">
-        <div>
-            <Image src={testing_image} alt="" width={40} height={40} className="w-10 h-10 rounded-full object-cover"/>
-            <span>Samarth Chouhan</span>
+      <div className="flex items-center justify-between ">
+        <div className="flex items-center">
+          <Image
+            src={testing_image}
+            alt=""
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <span className="font-semibold">Samarth Chouhan</span>
         </div>
-        <div></div>
+        <div className="flex gap-3 justify-end">
+          <Image
+            src="/accept.png"
+            alt=""
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+          <Image
+            src="/reject.png"
+            alt=""
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+        </div>
+      </div>
+      <div className="flex items-center justify-between ">
+        <div className="flex items-center">
+          <Image
+            src={testing_image}
+            alt=""
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <span className="font-semibold">Samarth Chouhan</span>
+        </div>
+        <div className="flex gap-3 justify-end">
+          <Image
+            src="/accept.png"
+            alt=""
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+          <Image
+            src="/reject.png"
+            alt=""
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+        </div>
+      </div>
+      <div className="flex items-center justify-between ">
+        <div className="flex items-center">
+          <Image
+            src={testing_image}
+            alt=""
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <span className="font-semibold">Samarth Chouhan</span>
+        </div>
+        <div className="flex gap-3 justify-end">
+          <Image
+            src="/accept.png"
+            alt=""
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+          <Image
+            src="/reject.png"
+            alt=""
+            width={20}
+            height={20}
+            className="cursor-pointer"
+          />
+        </div>
       </div>
     </div>
   );
