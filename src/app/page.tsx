@@ -20,6 +20,5 @@ export default function Home() {
     <div className="hidden lg:block w-[30%]">
       <RightMenu/>
     </div>
-
   </div>;
 }
